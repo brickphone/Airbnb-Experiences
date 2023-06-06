@@ -10,10 +10,7 @@ const Cards = (props) => {
         <img id="starimg" src={starImg}></img>
         <p id="rating">5.0</p>
       </div>
-      <p>(6)</p>
-        <p>USA</p>
-        <p>Life lessons with Katie Zaferes</p>
-        <p>From $136</p><p>/</p><p>person</p>
+      
     </div>
   )
 }
