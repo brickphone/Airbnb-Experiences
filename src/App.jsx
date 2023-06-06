@@ -9,7 +9,11 @@ function App () {
       <Hero />
       <Cards 
         img="../public/Images/katie-zaferes.png"
-        rating=""
+        rating="5.0"
+        amount="(6)"
+        country="USA"
+        description="Life lessons with Katie Zafares"
+        price="$136"
       />
     </div>
   )
