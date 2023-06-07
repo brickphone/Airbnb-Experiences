@@ -9,6 +9,7 @@ const Cards = (props) => {
       <div className="undertext-container">
         <img id="starimg" src={starImg}></img>
         <p id="rating">5.0</p>
+        <p id=""></p>
       </div>
       
     </div>

@@ -67,10 +67,14 @@ nav {
 #starimg {
   width: 14px;
   height: 14px;
+  margin-right:3px;
+  margin-bottom: 2px;
 }
 
 .undertext-container {
   display:flex;
+  margin-top:-9px;
+  margin-right:130px;
   flex-direction: row;
   align-items: center;
 }
