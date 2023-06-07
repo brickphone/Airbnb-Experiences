@@ -105,10 +105,9 @@ nav {
   justify-content: space-between;
   gap: 3px;
   margin-top: -25px;
-  margin-left: -4px;
+  margin-right: 0px;
 }
 
 #price {
   font-weight: bolder;
 }
-

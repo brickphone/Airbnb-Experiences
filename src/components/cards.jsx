@@ -6,6 +6,7 @@ const Cards = (props) => {
   console.log(props)
   return(
     <div className="cards-container">
+      
       <img className="card-images" src={katie}></img>
       <div className="undertext-container">
         <img id="starimg" src={starImg}></img>

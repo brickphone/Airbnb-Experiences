@@ -15,6 +15,14 @@ function App () {
         description="Life lessons with Katie Zafares"
         price="From $136 "
       />
+      <Cards 
+        img=""
+        rating="5.0"
+        amount="(30)"
+        country="USA"
+        description="Learn wedding photography"
+        price="From $125"
+      />
     </div>
   )
 }
