@@ -13,7 +13,7 @@ function App () {
         amount="(6)"
         country="USA"
         description="Life lessons with Katie Zafares"
-        price="$136"
+        price="From $136 "
       />
     </div>
   )

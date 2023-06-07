@@ -104,9 +104,11 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   gap: 3px;
-  
+  margin-top: -25px;
+  margin-left: -4px;
 }
 
 #price {
   font-weight: bolder;
 }
+
