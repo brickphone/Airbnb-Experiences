@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
-import katie from "../public/Images/katie-zaferes.png"
 import starImg from '../public/images/star.png'
 
-const Cards = (props) => {
+export default function Cards(props) {
   console.log(props)
-  return(
+  return (
     <div className="cards-container">
-      
-      <img className="card-images" src={katie}></img>
+      <img className="card-images" src={props.img}></img>
       <div className="undertext-container">
         <img id="starimg" src={starImg}></img>
         <p id="rating">{props.rating}</p>
@@ -24,4 +22,3 @@ const Cards = (props) => {
   )
 }
 
-export default Cards;
