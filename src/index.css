@@ -60,7 +60,7 @@ nav {
 
 .card-images {
   border-radius: 9px;
-  width: 176px; 
+  width: 190px; 
   height: 235px;
 }
 
@@ -91,4 +91,22 @@ nav {
 
 .undertext-second{
   display: flex;
+  margin-top: -25px;
+  margin-left: 20px;
+}
+
+#description {
+  font-size: 14px;
+}
+
+.undertext-third {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3px;
+  
+}
+
+#price {
+  font-weight: bolder;
 }

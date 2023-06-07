@@ -16,7 +16,7 @@ const Cards = (props) => {
         <p id="description">Life lessons with Katie Zafares</p>
       </div>
       <div className="undertext-third">
-        
+        <p id="price">From $136 </p><p>/person</p>
       </div>
     </div>
   )
