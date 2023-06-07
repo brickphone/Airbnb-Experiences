@@ -74,7 +74,21 @@ nav {
 .undertext-container {
   display:flex;
   margin-top:-9px;
-  margin-right:130px;
+  margin-right:78px;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  gap:2px;
+}
+
+#amount {
+  color:#918E9B;
+}
+
+#country {
+  color:#918E9B;
+}
+
+.undertext-second{
+  display: flex;
 }
