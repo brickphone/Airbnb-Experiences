@@ -5,7 +5,7 @@ import bike from './public/images/mountain-biking.png'
 export default [
   {
     id:1,
-    coverImg:"katie",
+    coverImg:"src": "./public/images/katie-zaferes.png",
     rating:5.0,
     amount:6,
     country:"USA",
