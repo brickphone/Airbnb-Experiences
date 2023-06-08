@@ -5,7 +5,7 @@ import bike from './public/images/mountain-biking.png'
 export default [
   {
     id:1,
-    img:{katie},
+    coverImg:{katie},
     rating:5.0,
     amount:6,
     country:"USA",
@@ -14,7 +14,7 @@ export default [
   },
   {
     id:2,
-    img:{wedding},
+    coverImg:{wedding},
     rating:5.0,
     amount:30,
     country:"USA",
@@ -23,7 +23,7 @@ export default [
   },
   {
     id:3,
-    img:{bike},
+    coverImg:{bike},
     rating:4.8,
     amount:2,
     description:"Group Mountain Biking",
