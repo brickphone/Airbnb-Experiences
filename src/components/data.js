@@ -5,12 +5,13 @@ import bike from './public/images/mountain-biking.png'
 export default [
   {
     id:1,
-    coverImg:{katie},
+    coverImg:"katie",
     rating:5.0,
     amount:6,
     country:"USA",
     description: "Life lessons with Katie Zafare",
     price: 136,
+    avail:"SOLD OUT"
   },
   {
     id:2,
@@ -19,7 +20,8 @@ export default [
     amount:30,
     country:"USA",
     description: "Learn wedding photography",
-    price:125
+    price:125,
+    avail:"ONLINE"
   },
   {
     id:3,
