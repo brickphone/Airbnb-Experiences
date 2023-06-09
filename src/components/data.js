@@ -1,34 +1,34 @@
-import katie from './public/images/katie-zaferes.png'
-import wedding from './public/images/wedding-photography.png'
-import bike from './public/images/mountain-biking.png'
+import katieImg from '../public/images/katie-zaferes.png';
+import weddingImg from '../public/images/wedding-photography.png';
+import bikeImg from '../public/images/mountain-biking.png';
 
 export default [
   {
-    id:1,
-    coverImg:"src": "./public/images/katie-zaferes.png",
-    rating:5.0,
-    amount:6,
-    country:"USA",
+    id: 1,
+    coverImg: katieImg,
+    rating: 5.0,
+    amount: 6,
+    country: "USA",
     description: "Life lessons with Katie Zafare",
     price: 136,
-    avail:"SOLD OUT"
+    avail: "SOLD OUT"
   },
   {
-    id:2,
-    coverImg:{wedding},
-    rating:5.0,
-    amount:30,
-    country:"USA",
+    id: 2,
+    coverImg: weddingImg,
+    rating: 5.0,
+    amount: 30,
+    country: "USA",
     description: "Learn wedding photography",
-    price:125,
-    avail:"ONLINE"
+    price: 125,
+    avail: "ONLINE"
   },
   {
-    id:3,
-    coverImg:{bike},
-    rating:4.8,
-    amount:2,
-    description:"Group Mountain Biking",
-    price:50,
+    id: 3,
+    coverImg: bikeImg,
+    rating: 4.8,
+    amount: 2,
+    description: "Group Mountain Biking",
+    price: 50,
   }
-]
+];

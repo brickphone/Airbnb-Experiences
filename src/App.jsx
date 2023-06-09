@@ -5,7 +5,7 @@ import Cards from './components/cards'
 import data from './components/data'
 
 function App () {
-  const Cards = data.map(item => {
+  const cardsList = data.map(item => {
     return (
       <Cards 
         img={item.coverImg}
@@ -23,7 +23,7 @@ function App () {
     <div className='main-container'>
       <Navbar />
       <Hero />
-      {Cards}
+      {cardsList}
     </div>
   )
 }
