@@ -11,9 +11,10 @@ function App () {
         img={item.coverImg}
         rating={item.rating}
         amount={item.amount}
-        country={item.country}
+        location={item.location}
         description={item.description}
         price={item.price}
+        openSpots={item.openSpots}
       />
     )
 

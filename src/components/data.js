@@ -8,20 +8,21 @@ export default [
     coverImg: katieImg,
     rating: 5.0,
     amount: 6,
-    country: "USA",
+    location: "Online",
     description: "Life lessons with Katie Zafare",
     price: 136,
-    avail: "SOLD OUT"
+    openSpots:0
   },
   {
     id: 2,
     coverImg: weddingImg,
     rating: 5.0,
     amount: 30,
-    country: "USA",
+    location: "Online",
     description: "Learn wedding photography",
     price: 125,
-    avail: "ONLINE"
+    avail: "ONLINE",
+    openSpots:27
   },
   {
     id: 3,
@@ -30,5 +31,7 @@ export default [
     amount: 2,
     description: "Group Mountain Biking",
     price: 50,
+    openSpots:3,
+    location:"Sweden"
   }
 ];

@@ -56,7 +56,7 @@ nav {
   align-items: center;
   margin-right:81%;
   margin-top:49px;
-
+  position:relative;
 }
 
 .card-images {
@@ -110,4 +110,12 @@ nav {
 
 #price {
   font-weight: bolder;
+}
+
+.card-badge {
+  position: absolute;
+  left:76px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  margin-top:10px;
 }
